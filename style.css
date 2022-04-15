@@ -1,0 +1,287 @@
+html, body, .home {
+    height: 100%;
+    overflow:auto;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    padding-left: 104px;
+    padding-right: 104px;
+    justify-content: space-around;
+}
+#navbarNavAltMarkup a{
+    color: white;
+    font-family: Circular,spotify-circular,Helbetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#navbarNavAltMarkup a:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+.navbar{
+    background-color: black;
+    padding: 14px 0px;
+}
+.img-logo {
+	height: 42px;
+	width: 134px;
+	display: block;
+	background: url('Images/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+.navbuttons{
+    
+    justify-content: end;
+}
+.mens{
+    color: white;
+    background-color: #1ed760;
+}
+.navbar-toggler{
+    color: white;
+}
+
+/* --------------------- main section starting ------------------------ */
+.main-btn{
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 12px;
+    border-radius: 22px;
+    background: whitesmoke;
+    color: #000000;
+    padding: 16px 28px 16px 28px;
+}
+.main-btn:hover{
+    padding: 18px 30px 18px 30px;
+    border-radius: 24px;
+}
+.main-text{
+    padding: 50px 0px 0px 10px;
+}
+.text-main{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+/* --------------------- main section closing ------------------------ */
+
+/* --------------------- second section starting ------------------------ */
+
+.second-sec-heading{
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px 30px 0px;
+}
+.cim{
+    width: 150px;
+    height: 150px;
+}
+h3{
+    padding-top: 20px;
+}
+.sm-sec2{
+    display: none;
+    padding-right: 30px;
+}
+.secimg{
+    width: 100px;
+    height: 100px;
+}
+.sec-head1{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+/* --------------------- second section closing ------------------------ */
+
+
+/* --------------------- third section starting ------------------------ */
+
+
+.sec-three{
+   background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));;
+   /* width: 100%; */
+   height: 300px;
+   font-size: 30px;
+   font-weight: bold;
+   color: whitesmoke;
+   text-align: center;
+   padding: 120px 0px 100px 0px;
+}
+
+/* --------------------- third  section closing ------------------------ */
+
+/* --------------------- fourth section starting ------------------------ */
+
+.fourth-sec{
+    padding: 0px 20px 0px 20px;
+}
+.forth-sec-space{
+    padding: 20px;
+}
+
+/* --------------------- fourth  section closing ------------------------ */
+
+/* --------------------- fifth section starting ------------------------ */
+
+.ready{
+    background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    /* width: 100%; */
+    height: 300px;
+    font-size: 30px;
+    font-weight: 900;
+    color: whitesmoke;
+    text-align: center;
+    padding: 120px 0px 100px 0px;
+
+}
+
+
+/* --------------------- fifth  section closing ------------------------ */
+
+/* --------------------- footer starting ------------------------ */
+footer{
+    width: 100%;
+    background: #000;
+}
+.st-f{
+    padding: 60px 0px 50px 0px;
+}
+.st-ft{
+    padding: 80px 0px 50px 0px;
+}
+.ft-hd{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.4;
+    letter-spacing: .08em;
+}
+.st-ft a{
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: Circular,spotify-circular,Helbetica,Arial,sans-serif;
+    letter-spacing: 0.5px;
+}
+.st-ft a:hover{
+    color: #1ed760;
+}
+.ft-im{
+    height: 40px;
+    width: 40px;
+}
+.ft-li{
+    padding: 20px 10px 10px 0px;
+    list-style-type: none;
+}
+.ft-li a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+.ft-li a:hover{
+    color: #1ed760;
+}
+.sm-ft{
+    padding: 0px 0px 30px 0px;
+}
+.wr-ct{
+    font-size: 10px;
+    color: #919496;
+}
+
+/* --------------------- footer closing ------------------------ */
+
+
+
+/* --------------------- meadiaquery starting ------------------------ */
+
+@media screen and (min-width: 1053px) {
+    .main-text{
+        padding: 200px 0px 0px 100px;
+    }
+    
+}
+@media screen and (min-width: 990px) {
+    .main-sec{
+        justify-content: space-around;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    }
+    .main-img{
+        padding: 50px 0px 0px 120px;
+    }
+    .img-main{
+        height: 500px;
+    }
+    .main-text{
+        padding: 140px 0px 0px 100px;
+    }
+    .text-main{
+        font-weight: bold;
+        font-size: 64px;
+        color: whitesmoke;
+    }
+    
+}
+@media screen and (max-width: 990px){
+    .main-sec{
+        justify-content: space-around;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    }
+    .main-img{
+        display: none;
+    }
+    .st-ft{
+        padding: 20px 0px 0px 0px;
+    }
+    .st-f{
+        padding: 30px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 830px){
+    .bg{
+        padding: 4px;
+        padding-left: 14px;
+        padding-right: 10px;
+    }
+    .img-logo {
+        height: 30px;
+        width: 90px;
+        display: block;
+        background: url('images/spotify.svg') no-repeat;
+        background-size: contain;
+        color: transparent;
+    }
+    .navbar{
+        background-color: #000;
+        padding: 4px 0px;
+    }
+    .st-ft{
+        padding: 20px 0px 0px 0px;
+    }
+    .st-f{
+        padding: 30px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 580px){
+    .ft-sc-sm{
+        padding-left: 20px;
+    }
+    
+}
